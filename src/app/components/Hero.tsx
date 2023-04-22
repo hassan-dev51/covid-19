@@ -32,7 +32,7 @@ async function getApiData() {
   return res.json();
 }
 
-export default async function CovidCard() {
+const CovidCard: any = async () => {
   const { countries_stat, world_total } = await getApiData();
 
   return (
@@ -43,4 +43,5 @@ export default async function CovidCard() {
       />
     </>
   );
-}
+};
+export default CovidCard;

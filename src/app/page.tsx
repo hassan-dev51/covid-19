@@ -6,6 +6,7 @@ export default function Home() {
       <div className="main">
         <div className="gradient" />
       </div>
+
       <CovidCard />
     </main>
   );
